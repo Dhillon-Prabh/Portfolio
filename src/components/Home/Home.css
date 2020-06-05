@@ -1,0 +1,64 @@
+@media only screen and (min-width: 992px) {
+    .nav-link-margin, .nav-link-margin:hover, .nav-link-margin:focus  {
+        margin-right: 120px;
+        font-size: 14pt;
+        color: black !important;
+        position: relative;
+        font-weight: bold;
+    }
+    
+    .nav-link-margin-home {
+        margin-left: 120px;
+    }
+    
+    .nav-link-margin:before {
+        background-color:#7030A0;
+        content:"";
+        height: 3px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .nav-link-margin:hover:before, .nav-link-margin:focus:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-link-margin, .nav-link-margin:hover, .nav-link-margin:focus  {
+        margin-right: 15px;
+        font-size: 12pt;
+        color: black !important;
+        position: relative;
+    }
+    
+    .nav-link-margin:before {
+        background-color:#7030A0;
+        content:"";
+        height: 3px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .nav-link-margin:hover:before, .nav-link-margin:focus:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
