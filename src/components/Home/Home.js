@@ -1,5 +1,6 @@
 import React from 'react';
-import Appbar from './Navbar.js'
+import Appbar from './Navbar.js';
+import Banner from './Banner.js';
 
 /**
  * Home component
@@ -7,7 +8,10 @@ import Appbar from './Navbar.js'
 const Home = () => {
 
     return (
-        <Appbar />
+        <>
+            <Appbar />
+            <Banner />
+        </>
     )
 }
 
