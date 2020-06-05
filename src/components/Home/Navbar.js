@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import './Home.css'
 
+/**
+ * Navbar component
+ */
 const Appbar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="transparent" sticky="top">
