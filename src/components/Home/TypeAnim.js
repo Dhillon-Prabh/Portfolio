@@ -5,10 +5,10 @@ import { black } from "color-name";
 const TypeAnim = () => {
   return (
     <>
-      <span className="typical-font" style={{color: "black", marginLeft: "3rem"}}>I am</span>
+      <span className="typical-font" style={{color: "black", marginLeft: "3rem"}}>I am a</span>
       <Typical
         className="typical-font"
-        steps={["recent BCIT Graduate with 88% GPA", 500, "a software developer", 500, "a problem solver", 500]}
+        steps={["recent BCIT Graduate with 88% GPA.", 500, "software developer.", 500, "problem solver.", 500, "music lover.", 500]}
         loop={Infinity}
         wrapper="span"
       />
