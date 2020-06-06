@@ -1,86 +1,127 @@
 @media only screen and (min-width: 992px) {
-    .nav-link-margin, .nav-link-margin:hover, .nav-link-margin:focus  {
-        margin-right: 120px;
-        font-size: 14pt;
-        color: black !important;
-        position: relative;
-        font-weight: bold;
-    }
-    
-    .nav-link-margin-home {
-        margin-left: 120px;
-    }
-    
-    .nav-link-margin:before {
-        background-color:#7030A0;
-        content:"";
-        height: 3px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        visibility: hidden;
-        -webkit-transform: scaleX(0);
-        transform: scaleX(0);
-        -webkit-transition: all 0.3s ease-in-out 0s;
-        transition: all 0.3s ease-in-out 0s;
-    }
-    
-    .nav-link-margin:hover:before, .nav-link-margin:focus:before {
-        visibility: visible;
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
+  .nav-link-margin,
+  .nav-link-margin:hover,
+  .nav-link-margin:focus {
+    margin-right: 120px;
+    font-size: 14pt;
+    color: black !important;
+    position: relative;
+    font-weight: bold;
+  }
 
-    .me-picture {
-        height: 250px;
-        display: inline;
-    }
+  .nav-link-margin-home {
+    margin-left: 120px;
+  }
 
-    .typical-font {
-        font-family: "courier";
-        font-size: 25pt;
-        font-weight: bold;
-        margin-left: 1rem;
-        color: #7030A0;
-    }
+  .nav-link-margin:before {
+    background-color: #7030a0;
+    content: "";
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
 
-    .banner {
-        width: 70%;
-        margin-left: 25%;
-        margin-top: 5%;
-    }
+  .nav-link-margin:hover:before,
+  .nav-link-margin:focus:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  .me-picture {
+    height: 250px;
+    display: inline;
+  }
+
+  .typical-font {
+    font-family: "courier";
+    font-size: 25pt;
+    font-weight: bold;
+    margin-left: 1rem;
+    color: #7030a0;
+  }
+
+  .Iam-font {
+    color: black;
+    margin-left: 3rem;
+  }
+
+  .banner {
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
-    body {
-        overflow-x: hidden; 
-    }
-    .nav-link-margin, .nav-link-margin:hover, .nav-link-margin:focus  {
-        margin-right: 15px;
-        font-size: 12pt;
-        color: black !important;
-        position: relative;
-    }
-    
-    .nav-link-margin:before {
-        background-color:#7030A0;
-        content:"";
-        height: 3px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        visibility: hidden;
-        -webkit-transform: scaleX(0);
-        transform: scaleX(0);
-        -webkit-transition: all 0.3s ease-in-out 0s;
-        transition: all 0.3s ease-in-out 0s;
-    }
-    
-    .nav-link-margin:hover:before, .nav-link-margin:focus:before {
-        visibility: visible;
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+    width: 100%;
+  }
+
+  .nav-link-margin,
+  .nav-link-margin:hover,
+  .nav-link-margin:focus {
+    margin-right: 15px;
+    font-size: 12pt;
+    color: black !important;
+    position: relative;
+  }
+
+  .nav-link-margin:before {
+    background-color: #7030a0;
+    content: "";
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .nav-link-margin:hover:before,
+  .nav-link-margin:focus:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  .me-picture {
+    height: 50px;
+    display: inline;
+  }
+
+  .typical-font {
+    font-family: "courier";
+    font-size: 10pt;
+    font-weight: bold;
+    margin-left: 0.3rem;
+    color: #7030a0;
+  }
+
+  .Iam-font {
+    color: black;
+    margin-left: 1rem;
+  }
+
+  .banner {
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
 }

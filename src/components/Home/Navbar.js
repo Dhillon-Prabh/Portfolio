@@ -7,7 +7,7 @@ import './Home.css'
  */
 const Appbar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="transparent" sticky="top">
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
       <Container>
         <Navbar>
           <Nav justify className="m-auto">
