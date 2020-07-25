@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="banner">
             <Image
                 className="me-picture"
-                src={require("../../img/Me.jpg")}
+                src={require("../../img/Me1.jpg")}
                 roundedCircle
             />
             <TypeAnim />
